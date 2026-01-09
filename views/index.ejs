@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <meta name="description" content="<%= description %>">
+    <meta name="keywords" content="<%= keywords %>">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="ODdKj2dDAOuC8OWhy9O9hkhvzKwu6rmdrJuo-BQZZMU" />
+    <link rel="canonical" href="<%= canonicalUrl %>">
+    <link rel="icon" href="/Trendifyz.png">
+    <link rel="apple-touch-icon" href="/Trendifyz.png">
+    <meta name="p:domain_verify" content="c64a9d44a7c76c5fda0d1479f7159d15"/>
+    <link rel="stylesheet" href="/styles.css">
+
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="<%= title %>">
+    <meta property="og:description" content="<%= description %>">
+    <meta property="og:url" content="<%= canonicalUrl %>">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="<%= baseUrl %>/trendifyz.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<%= title %>">
+    <meta name="twitter:description" content="<%= description %>">
+    <meta name="twitter:image" content="<%= baseUrl %>/trendifyz.png">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Trendifyz",
+      "url": "<%= canonicalUrl %>",
+      "description": "<%= description %>",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Trendifyz",
+        "logo": "<%= baseUrl %>/trendifyz.png"
+      }
+    }
+    </script>
+    <!-- Pinterest Tag -->
+    <script>
+    !function(e){if(!window.pintrk){window.pintrk = function () {
+    window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+      n=window.pintrk;n.queue=[],n.version="3.0";var
+      t=document.createElement("script");t.async=!0,t.src=e;var
+      r=document.getElementsByTagName("script")[0];
+      r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+    pintrk('load', '2613877608881', {em: '<user_email_address>'});
+    pintrk('page');
+    </script>
+    <noscript>
+    <img height="1" width="1" style="display:none;" alt=""
+      src="https://ct.pinterest.com/v3/?event=init&tid=2613877608881&pd[em]=<hashed_email_address>&noscript=1" />
+    </noscript>
+    <!-- end Pinterest Tag -->
+    <script>
+    pintrk('track', 'pagevisit', {
+    event_id: 'eventId0001'
+    });
+    </script>
+    <% if (currentCategory !== null) { %>
+    <script>
+    pintrk('track', 'viewcategory', {
+    event_id: 'eventId0002',
+    product_category: '<%= currentCategory %>'
+    });
+    </script>
+    <% } %>
+</head>
+<body>
+    <header>
+        <div class="menu-container">
+            <button class="menu-button" onclick="toggleMenu()">⋮</button>
+            <nav class="navigation" id="navigation">
+                <a href="/" class="<%= currentCategory === null ? 'active' : '' %>">Home</a>
+                <a href="/blog">Blog</a>
+                <a href="/category/Electronics-&-Gaming" class="<%= currentCategory === 'Electronics & Gaming' ? 'active' : '' %>">Electronics & Gaming</a>
+                <a href="/category/Home-&-kitchen-gadgets" class="<%= currentCategory === 'Home & kitchen gadgets' ? 'active' : '' %>">Home & Kitchen</a>
+                <a href="/category/Beauty-&-personal-care" class="<%= currentCategory === 'Beauty & personal care' ? 'active' : '' %>">Beauty & Personal Care</a>
+                <a href="/category/Fitness-&-health-tools" class="<%= currentCategory === 'Fitness & health tools' ? 'active' : '' %>">Fitness & Health</a>
+            </nav>
+        </div>
+        <div class="logo">
+            <img src="/Trendifyz.png" alt="Trendifyz Logo" class="logo-icon">
+        </div>
+        <p>Discover the latest trends and unbeatable deals!</p>
+    </header>
+    <% if (currentCategory !== null) { %>
+    <div class="category-header">
+        <h2><%= currentCategory %></h2>
+        <a href="/" class="back-link">← Back to Home</a>
+    </div>
+    <% } %>
+    <div class="products">
+        <% products.forEach(product => { %>
+            <div class="product">
+                <a href="<%= product.url %>" target="_blank">
+                    <img class="product-image" src="<%= product.image %>" alt="<%= product.name %>">
+                    <% if (product.images && product.images.length > 1) { %>
+                        <div class="additional-images">
+                            <% product.images.slice(1, 4).forEach(img => { %>
+                                <img src="<%= img %>" alt="product image" class="thumbnail">
+                            <% }); %>
+                        </div>
+                    <% } %>
+                    <h3 class="product-title"><%= product.name %></h3>
+                    <button class="cta-button">View Deal</button>
+                </a>
+                <% if (product.review) { %>
+                    <p class="review">⭐ <%= product.review %></p>
+                <% } %>
+                <% if (product.pros && product.pros.length) { %>
+                    <div class="pros-cons">
+                        <div class="pros">👍 Pros: <%= product.pros.join(', ') %></div>
+                        <% if (product.cons && product.cons.length) { %>
+                            <div class="cons">👎 Cons: <%= product.cons.join(', ') %></div>
+                        <% } %>
+                    </div>
+                <% } %>
+                <% if (product.whyBuy) { %>
+                    <p class="why-buy">💰 <%= product.whyBuy %></p>
+                <% } %>
+                <% if (product.dealScore) { %>
+                    <p class="deal-score">🔥 Deal Score: <%= product.dealScore %>/10</p>
+                <% } %>
+                <% if (product.editorPick) { %>
+                    <p class="editor-pick">Editor's Pick</p>
+                <% } %>
+            </div>
+            <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Product",
+              "name": "<%= product.name %>",
+              "image": "<%= product.image %>",
+              "description": "<%= product.review %>",
+              "offers": {
+                "@type": "Offer",
+                "url": "<%= product.url %>",
+                "price": "<%= product.price.replace(/[^0-9.]/g, '') %>",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "<%= (product.dealScore / 2).toFixed(1) %>",
+                "bestRating": "5",
+                "reviewCount": "1"
+              }
+            }
+            </script>
+        <% }); %>
+    </div>
+    <% if (currentCategory === null) { %>
+    <div class="hot-categories">
+        <h2>Hot Categories</h2>
+        <div class="categories-grid">
+            <a href="/category/Electronics-&-Gaming" class="category-link">
+                <div class="category">Electronics & Gaming (best sellers, deals)</div>
+            </a>
+            <a href="/category/Home-&-kitchen-gadgets" class="category-link">
+                <div class="category">Home & kitchen gadgets</div>
+            </a>
+            <a href="/category/Beauty-&-personal-care" class="category-link">
+                <div class="category">Beauty & personal care</div>
+            </a>
+            <a href="/category/Fitness-&-health-tools" class="category-link">
+                <div class="category">Fitness & health tools</div>
+            </a>
+            <a href="/category/Books" class="category-link">
+                <div class="category">Books</div>
+            </a>
+        </div>
+    </div>
+    <% } %>
+    <footer>
+        <div class="partner-logos">
+            <a href="https://www.amazon.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" style="height: 40px;"></a>
+            <a href="https://www.ebay.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" alt="eBay" style="height: 40px;"></a>
+            <a href="https://www.pinterest.com/TrendifyzOfficial/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" alt="Pinterest" style="height: 40px;"></a>
+        </div>
+        <p>&copy; 2025 Trendifyz. All rights reserved. | Find the best deals on Amazon.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('navigation');
+            nav.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>

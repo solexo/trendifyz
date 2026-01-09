@@ -1,0 +1,221 @@
+[
+  {
+    "name": "Wireless Bluetooth Headphones",
+    "url": "https://example.com/product1",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71qid7QFWJL._AC_SL1500_.jpg"
+  },
+  {
+    "name": "Apple iPhone 14 Pro",
+    "url": "https://example.com/product2",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61XO4bORHVL._AC_SL1500_.jpg"
+  },
+  {
+    "name": "Hairmax PowerFlex 272 Laser Cap - (FDA Cleared) Thinning Hair Loss Solution for Men & Women - Flexible Cordless Design With 7 Minute Treatment Time - Red Light Therapy to Stimulate Hair Growth",
+    "url": "https://amzn.to/48siT70",
+    "image": "https://m.media-amazon.com/images/I/41wCx1fhbQL._SY300_SX300_QL70_FMwebp_.jpg",
+    "price": "Price not available"
+  },
+  {
+    "name": "Nutrafol Women's Balance Hair Growth Supplements, Ages 45 and Up, Clinically Proven for Visibly Thicker Hair and Scalp Coverage, Dermatologist Recommended - 1 Month Supply",
+    "url": "https://www.amazon.com/Nutrafol-Supplements-Clinically-Dermatologist-Recommended/dp/B07QZ5CTTF/ref=sr_1_2_sspa?crid=2WCFVX508AVYZ&dib=eyJ2IjoiMSJ9.jmhc7mbmoxQezFum9AgeTkRn4SnKJoqM5EeckpWbJhGeELJrn5luSQWMAo0qd0exvtu8dfNFH3wzjHk26VEmHxihiKnSkeeNFLMaNdrwmuiOVihMHiYlTqM3TeDd4_wo-vjd34PrON5o10RgybGmsfQNYVnz8uNmjm12wZVmKM51X8_fZcKX3z_5bZ1qXaEmwH9VydIZRwygIFLAFUjPYbjzEx2VyppfFTpsaFwVGbWFE8r6L8EYUS36M-gRZ8MIlQ2ks466ZtG1qMmDhu7z3Ztm4m1GsvmdlAnoMIdq-KY.7fsDL0m0o7e94bnQPMhJnpTz7r9Vrl3Dtp2o2UXkSQw&dib_tag=se&keywords=hair&qid=1765219861&sprefix=hair%2Caps%2C943&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+    "image": "https://m.media-amazon.com/images/I/311NWArnJkL._SX342_SY445_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/311NWArnJkL._SX342_SY445_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/71x3lKqI-cL._SL1500_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "Dove Brown Sugar and Coconut Butter Body Scrub Exfoliates and Deeply Nourishes for Smooth, Radiant Skin 15 oz",
+    "url": "https://www.amazon.com/Dove-Coconut-Exfoliates-Nourishes-Radiant/dp/B0DNTZTS1L/ref=hw_25_a_dag_g_6abb?pf_rd_p=b739da0f-9af7-41e3-addc-20654cc36ecc&pf_rd_r=ZQC29BF9T66YW91P9W3Y&sr=1-7-969f4cb0-824d-4648-acec-369c6cfab238&th=1",
+    "image": "https://m.media-amazon.com/images/I/61xkCi4ZerL._SY300_SX300_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/61xkCi4ZerL._SY300_SX300_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/71mPN1QlerL._SL1500_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "ANUA Heartleaf Quercetinol Pore Deep Cleansing Foam, Facial Cleanser, for Double Cleansing, BHA, Hyaluronic Acid, Glycerin, Face Wash, Blackhead Remover, Korean Skincare (150ml/5.07 fl.oz.)",
+    "url": "https://amzn.to/3YNXGjm",
+    "image": "https://m.media-amazon.com/images/I/31+iZsiR-5L._SY300_SX300_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/31+iZsiR-5L._SY300_SX300_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/51Kpw2r-pIL._SL1000_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "Burt's Bees Gifts Ideas - Classics Set, 6 Products in Giftable Tin – Cuticle Cream, Hand Salve, Lip Balm, Res-Q Ointment, Hand Repair and Foot Cream",
+    "url": "https://amzn.to/4pUbNzv",
+    "image": "https://m.media-amazon.com/images/I/51wulEPdZnL._SY300_SX300_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/51wulEPdZnL._SY300_SX300_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/91xmaxoSw3L._SL1500_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "The Elf on the Shelf: A Christmas Tradition - Boy Scout Elf with Brown Eyes - Includes Artfully Illustrated Storybook, Keepsake Box and Official Adoption Certificate",
+    "url": "https://amzn.to/4qtZ0UC",
+    "image": "https://m.media-amazon.com/images/I/81wMVE28dsL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/81wMVE28dsL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/81wMVE28dsL._AC_SL1500_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "Everything You Need to Know Before You're 16 (But Won’t Get Taught in School): 100+ Essential Life Skills for Self-Confidence, Happiness, and Success (Life Skills for Tweens & Teens)",
+    "url": "https://amzn.to/49dWtGS",
+    "image": "https://m.media-amazon.com/images/I/51BknZMSP5L._SY445_SX342_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/51BknZMSP5L._SY445_SX342_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/713TFKk8peL._SL1499_.jpg",
+      "https://m.media-amazon.com/images/I/81y5ywrZrUL._AC_SF480,480_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "Strength in the Struggle: A Bible Study Workbook for Women on Letting Go of Fear and Anxiety",
+    "url": "https://amzn.to/45uBAWT",
+    "image": "https://m.media-amazon.com/images/I/41HOn+UztsL._SX342_SY445_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/41HOn+UztsL._SX342_SY445_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/717+XZvxh5L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91cZoD2i7dL._AC_SF480,480_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "The Happiest Man on Earth: The Beautiful Life of an Auschwitz Survivor",
+    "url": "https://amzn.to/4peVRqz",
+    "image": "https://m.media-amazon.com/images/I/51wYn10pycL._SY445_SX342_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/51wYn10pycL._SY445_SX342_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/81V1AJy3htL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/816Y2Q6gNmL._AC_SF480,480_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "DUDE Wipes - Flushable Wipes Stocking Stuffers - 1 Pack, 48 Count - Unscented - Vitamin-E & Aloe - Septic and Sewer Safe",
+    "url": "https://amzn.to/49wbXra",
+    "image": "https://m.media-amazon.com/images/I/31lVCHTkIKL._SY300_SX300_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/31lVCHTkIKL._SY300_SX300_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/6119cTwQf4L._SL1500_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "Oars + Alps Deodorant for Men & Women, Aluminum Free Deodorant for Men, Dermatologist Tested, Clean Ingredients, Non Toxic, Vegan, Long Lasting, Odor Protection, Fresh Ocean Splash, 2pk, 2.6oz",
+    "url": "https://amzn.to/44OF5Hr",
+    "image": "https://m.media-amazon.com/images/I/51FjDvhwmCL._SY300_SX300_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/51FjDvhwmCL._SY300_SX300_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/81Z5a6NaaeL._SL1500_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "TENS EMS Unit Muscle Stimulator for Pain Relief Therapy - 4 in 1 TENS & EMS & Relax & Custom Frequency+Pulse - Muscle Massager 36 Modes 20 Intensity, Memory & Favorites Function, 3.8\" Color Display",
+    "url": "https://amzn.to/3MUS9oM",
+    "image": "https://m.media-amazon.com/images/I/81fCgqwnVML._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/81fCgqwnVML._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/81fCgqwnVML._AC_SL1500_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "ACDelco 48-Count Triple AAA Batteries, Maximum Power Super Alkaline Battery for Home and Office, 10-Year Shelf Life, Reclosable Packaging",
+    "url": "https://amzn.to/3KPvs4H",
+    "image": "https://m.media-amazon.com/images/I/51+TpdcTjUL._SX342_SY445_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/51+TpdcTjUL._SX342_SY445_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/91U0wvl99PL._SL1500_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "Scotch Thermal Laminating Pouches, for Use with Thermal Laminators, 8.9 x 11.4 Inches, Letter Size Sheets, 100-Pack",
+    "url": "https://amzn.to/4azpOy3",
+    "image": "https://m.media-amazon.com/images/I/61y4SMvlKEL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/61y4SMvlKEL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/61y4SMvlKEL._AC_SL1280_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "Melissa & Doug Primary Lacing Beads – 30 Wooden Beads for Crafts & 2 Laces in Toy Storage Box, Small Beads for Kids Arts and Crafts Kits, Preschool Learning Toys for Girls & Boys Ages 3+",
+    "url": "https://amzn.to/3MThVtq",
+    "image": "https://m.media-amazon.com/images/I/71m36NhlLzL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/71m36NhlLzL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/71m36NhlLzL._AC_SL1500_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "Avery High Visibility Printable Round Labels with Sure Feed, 2.5\" Diameter, White, 300 Customizable Blank Labels Total (5294)",
+    "url": "https://amzn.to/44Kg3t3",
+    "image": "https://m.media-amazon.com/images/I/81drHu5xHUL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/81drHu5xHUL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/81drHu5xHUL._AC_SL1500_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "Shure SM57 Professional XLR Dynamic Microphone – Cardioid Mic for Instruments, Amplifiers, Drums & Live Performance Recording (SM57-LC)",
+    "url": "https://amzn.to/4qsWuhi",
+    "image": "https://m.media-amazon.com/images/I/51oELchNdFL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/51oELchNdFL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/51oELchNdFL._AC_SL1500_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "Amazon Basics Rectangle 6-Outlet, 600 Joule Surge Protector Power Strip, 2ft, Small, White, 2-Pack",
+    "url": "https://amzn.to/4q3aqim",
+    "image": "https://m.media-amazon.com/images/I/51HI1DM27TL._AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/51HI1DM27TL._AC_SX300_SY300_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/51HI1DM27TL._AC_SL1500_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "Pyle 20W Megaphone Bullhorn - 5.4'' x 8.6'' Portable Megaphone, Projection Range Up to 1100 Sq. Yards, Voice Talking & Siren Alert, Shoulder Strap, Battery Operated, (White)",
+    "url": "https://amzn.to/49dVdDV",
+    "image": "https://m.media-amazon.com/images/I/61q5BO954PL._AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/61q5BO954PL._AC_SX300_SY300_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/61q5BO954PL._AC_SL1500_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "HP Everyday Photo Paper, Glossy, 8.5x11 in, 50 sheets (Q8723A)",
+    "url": "https://amzn.to/3L4JejW",
+    "image": "https://m.media-amazon.com/images/I/71RF9Km1CNL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/71RF9Km1CNL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/71RF9Km1CNL._AC_SL1500_.jpg"
+    ],
+    "price": "Price not available"
+  },
+  {
+    "name": "Lenovo - Legion 17” Armored Backpack – Gaming Laptop Bag – Double Layered Protection – Dedicated Storage Pockets – Durable Pack with EVA Front Shield",
+    "url": "https://amzn.to/3MT1lKd",
+    "image": "https://m.media-amazon.com/images/I/41kIZHniJZL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/41kIZHniJZL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/I/41kIZHniJZL._AC_SL1000_.jpg"
+    ],
+    "price": "Price not available"
+  }
+]

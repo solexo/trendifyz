@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <meta name="description" content="<%= description %>">
+    <meta name="keywords" content="<%= keywords %>">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="ODdKj2dDAOuC8OWhy9O9hkhvzKwu6rmdrJuo-BQZZMU" />
+    <link rel="canonical" href="<%= canonicalUrl %>">
+    <link rel="icon" href="/Trendifyz.png">
+    <link rel="apple-touch-icon" href="/Trendifyz.png">
+    <meta name="p:domain_verify" content="c64a9d44a7c76c5fda0d1479f7159d15"/>
+    <link rel="stylesheet" href="/styles.css">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="<%= title %>">
+    <meta property="og:description" content="<%= description %>">
+    <meta property="og:url" content="<%= canonicalUrl %>">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="<%= baseUrl %>/trendifyz.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<%= title %>">
+    <meta name="twitter:description" content="<%= description %>">
+    <meta name="twitter:image" content="<%= baseUrl %>/trendifyz.png">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Trendifyz Blog",
+      "url": "<%= canonicalUrl %>",
+      "description": "<%= description %>",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Trendifyz",
+        "logo": "<%= baseUrl %>/trendifyz.png"
+      }
+    }
+    </script>
+    <!-- Pinterest Tag -->
+    <script>
+    !function(e){if(!window.pintrk){window.pintrk = function () {
+    window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+      n=window.pintrk;n.queue=[],n.version="3.0";var
+      t=document.createElement("script");t.async=!0,t.src=e;var
+      r=document.getElementsByTagName("script")[0];
+      r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+    pintrk('load', '2613877608881', {em: '<user_email_address>'});
+    pintrk('page');
+    </script>
+    <noscript>
+    <img height="1" width="1" style="display:none;" alt=""
+      src="https://ct.pinterest.com/v3/?event=init&tid=2613877608881&pd[em]=<hashed_email_address>&noscript=1" />
+    </noscript>
+    <!-- end Pinterest Tag -->
+    <script>
+    pintrk('track', 'pagevisit', {
+    event_id: 'eventId0001'
+    });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="menu-container">
+            <button class="menu-button" onclick="toggleMenu()">⋮</button>
+            <nav class="navigation" id="navigation">
+                <a href="/">Home</a>
+                <a href="/blog" class="active">Blog</a>
+                <a href="/category/Electronics-&-Gaming">Electronics & Gaming</a>
+                <a href="/category/Home-&-kitchen-gadgets">Home & Kitchen</a>
+                <a href="/category/Beauty-&-personal-care">Beauty & Personal Care</a>
+                <a href="/category/Fitness-&-health-tools">Fitness & Health</a>
+            </nav>
+        </div>
+        <div class="logo">
+            <img src="/Trendifyz.png" alt="Trendifyz Logo" class="logo-icon">
+        </div>
+        <p>Discover the latest trends and unbeatable deals!</p>
+    </header>
+    <div class="blog-header">
+        <h1>Trendifyz Blog</h1>
+        <p>Product reviews, deals, and insights on the best Amazon products.</p>
+    </div>
+    <footer>
+        <div class="partner-logos">
+            <a href="https://www.amazon.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" style="height: 40px;"></a>
+            <a href="https://www.ebay.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" alt="eBay" style="height: 40px;"></a>
+            <a href="https://www.pinterest.com/TrendifyzOfficial/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" alt="Pinterest" style="height: 40px;"></a>
+        </div>
+        <p>&copy; 2025 Trendifyz. All rights reserved. | Find the best deals on Amazon.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('navigation');
+            nav.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
