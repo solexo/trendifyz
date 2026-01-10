@@ -1224,12 +1224,7 @@ app.get('/category/:category', (req, res) => {
 });
 
 app.get('/blog', (req, res) => {
-  const baseUrl = process.env.BASE_URL || 'https://trendifyz.vercel.app';
-  const canonicalUrl = baseUrl + req.originalUrl;
-  const title = 'Trendifyz Blog - Product Reviews and Features';
-  const description = 'Read our latest blog posts featuring product reviews, deals, and insights on the best Amazon products.';
-  const keywords = 'blog, product reviews, deals, amazon, electronics, gaming, home, kitchen, gadgets, beauty, personal care, fitness, health';
-  res.render('blog', { products, title, description, keywords, canonicalUrl, baseUrl });
+  res.sendFile(path.join(__dirname, 'views', 'blog.html'));
 });
 
 // Export for Vercel
