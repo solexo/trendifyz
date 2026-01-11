@@ -1,104 +1,154 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trendifyz Blog - Product Reviews and Features</title>
-    <meta name="description" content="Read our latest blog posts featuring product reviews, deals, and insights on the best Amazon products.">
-    <meta name="keywords" content="blog, product reviews, deals, amazon, electronics, gaming, home, kitchen, gadgets, beauty, personal care, fitness, health">
-    <meta name="robots" content="index, follow">
-    <meta name="google-site-verification" content="ODdKj2dDAOuC8OWhy9O9hkhvzKwu6rmdrJuo-BQZZMU" />
-    <link rel="canonical" href="https://trendifyz.vercel.app/blog">
-    <link rel="icon" href="/Trendifyz.png">
-    <link rel="apple-touch-icon" href="/Trendifyz.png">
-    <meta name="p:domain_verify" content="c64a9d44a7c76c5fda0d1479f7159d15"/>
-    <link rel="stylesheet" href="/styles.css">
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="Trendifyz Blog - Product Reviews and Features">
-    <meta property="og:description" content="Read our latest blog posts featuring product reviews, deals, and insights on the best Amazon products.">
-    <meta property="og:url" content="https://trendifyz.vercel.app/blog">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://trendifyz.vercel.app/trendifyz.png">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Trendifyz Blog - Product Reviews and Features">
-    <meta name="twitter:description" content="Read our latest blog posts featuring product reviews, deals, and insights on the best Amazon products.">
-    <meta name="twitter:image" content="https://trendifyz.vercel.app/trendifyz.png">
-
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Blog",
-      "name": "Trendifyz Blog",
-      "url": "https://trendifyz.vercel.app/blog",
-      "description": "Read our latest blog posts featuring product reviews, deals, and insights on the best Amazon products.",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Trendifyz",
-        "logo": "https://trendifyz.vercel.app/trendifyz.png"
-      }
-    }
-    </script>
-    <!-- Pinterest Tag -->
-    <script>
-    !function(e){if(!window.pintrk){window.pintrk = function () {
-    window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
-      n=window.pintrk;n.queue=[],n.version="3.0";var
-      t=document.createElement("script");t.async=!0,t.src=e;var
-      r=document.getElementsByTagName("script")[0];
-      r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
-    pintrk('load', '2613877608881', {em: '<user_email_address>'});
-    pintrk('page');
-    </script>
-    <noscript>
-    <img height="1" width="1" style="display:none;" alt=""
-      src="https://ct.pinterest.com/v3/?event=init&tid=2613877608881&pd[em]=<hashed_email_address>&noscript=1" />
-    </noscript>
-    <!-- end Pinterest Tag -->
-    <script>
-    pintrk('track', 'pagevisit', {
-    event_id: 'eventId0001'
-    });
-    </script>
+<meta charset="utf-8">
+<title>Top Trending Amazon Products</title>
+<style>
+body {
+  background:#0f0f23;
+  color:#e0e0e0;
+  font-family:Segoe UI, sans-serif;
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+  line-height:1.7;
+}
+h1 { color:#00ffff; text-align:center; }
+h2 { color:#00d4ff; }
+h3 { color:#ff6b6b; }
+.product {
+  background:rgba(255,255,255,0.08);
+  margin:60px 0;
+  padding:30px;
+  border-radius:20px;
+}
+img {
+  max-width:100%;
+  border-radius:15px;
+  display:block;
+  margin:20px auto;
+}
+.cta {
+  display:inline-block;
+  margin-top:20px;
+  padding:16px 30px;
+  background:#007bff;
+  color:#fff;
+  border-radius:40px;
+  text-decoration:none;
+  font-weight:bold;
+}
+</style>
 </head>
+
 <body>
-    <header>
-        <div class="menu-container">
-            <button class="menu-button" onclick="toggleMenu()">⋮</button>
-            <nav class="navigation" id="navigation">
-                <a href="/">Home</a>
-                <a href="/blog" class="active">Blog</a>
-                <a href="/category/Electronics-&-Gaming">Electronics & Gaming</a>
-                <a href="/category/Home-&-kitchen-gadgets">Home & Kitchen</a>
-                <a href="/category/Beauty-&-personal-care">Beauty & Personal Care</a>
-                <a href="/category/Fitness-&-health-tools">Fitness & Health</a>
-            </nav>
-        </div>
-        <div class="logo">
-            <img src="/Trendifyz.png" alt="Trendifyz Logo" class="logo-icon">
-        </div>
-        <p>Discover the latest trends and unbeatable deals!</p>
-    </header>
-    <div class="blog-header">
-        <h1>Trendifyz Blog</h1>
-        <p>Product reviews, deals, and insights on the best Amazon products.</p>
-    </div>
-    <footer>
-        <div class="partner-logos">
-            <a href="https://www.amazon.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" style="height: 40px;"></a>
-            <a href="https://www.ebay.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" alt="eBay" style="height: 40px;"></a>
-            <a href="https://www.pinterest.com/TrendifyzOfficial/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" alt="Pinterest" style="height: 40px;"></a>
-        </div>
-        <p>&copy; 2025 Trendifyz. All rights reserved. | Find the best deals on Amazon.</p>
-    </footer>
-    <script>
-        function toggleMenu() {
-            const nav = document.getElementById('navigation');
-            nav.classList.toggle('show');
-        }
-    </script>
+
+<article>
+<h1>🔥 Top Trending Amazon Products Right Now</h1>
+<p style="text-align:center;">
+Click a product and see why people are buying it today.
+</p>
+
+
+<section class="product" id="premier-protein-shake-chocolate-30g-protein-no-added-sugar-24-vitamins-minerals-to">
+<img src="https://m.media-amazon.com/images/I/71Y8GT3GYvL.jpg" alt="Premier Protein Shake, Chocolate, 30g Protein, No Added Sugar, 24 Vitamins & Minerals to">
+<h2>Premier Protein Shake, Chocolate, 30g Protein, No Added Sugar, 24 Vitamins & Minerals</h2>
+
+Are you tired of sacrificing taste for nutrition? Look no further than the Premier Protein Shake, Chocolate. This delicious and protein-packed drink is perfect for those on-the-go who need a quick and easy way to refuel after a workout or as a healthy snack.
+
+<h3>Key Benefits</h3>
+<ul>
+  <li>30g of high-quality protein per serving to support muscle growth and repair</li>
+  <li>No added sugar, making it a guilt-free choice for those watching their calorie intake</li>
+  <li>24 essential vitamins and minerals to support overall health and wellness</li>
+  <li>Ready-to-drink and portable for convenience on-the-go</li>
+</ul>
+
+<h3>Who This Is For</h3>
+<p>The Premier Protein Shake is perfect for:</p>
+<ul>
+  <li>Fitness enthusiasts who need a quick post-workout snack</li>
+  <li>Busy professionals looking for a healthy breakfast or lunch option</li>
+  <li>Moms on-the-go who want a nutritious drink to keep them energized throughout the day</li>
+  <liAnyone looking for a delicious and protein-rich alternative to traditional smoothies or milkshakes</li>
+</ul>
+
+<h3>Pros & Cons</h3>
+<p>Sweetened with natural sweeteners, this shake is a great choice for those trying to reduce their sugar intake.</p>
+<p>While the Premier Protein Shake is a nutritious option, it may not be suitable for those with dairy intolerance or sensitivity due to its milk-based ingredients.</p>
+<a href="https://amzn.to/3MYpL56" class="cta" target="_blank" rel="nofollow noopener">
+Check price on Amazon
+</a>
+</section>
+
+<section class="product" id="nordictrack-t">
+<img src="https://m.media-amazon.com/images/I/31chdUGXSAL.jpg" alt="NordicTrack T">
+<h2>NordicTrack T</h2>
+<p>Take your home workouts to the next level with the NordicTrack T, a top-of-the-line treadmill designed for maximum comfort and performance.</p>
+
+<h3>Key Benefits</h3>
+<ul>
+  <li>5" LCD display: track your progress in real-time</li>
+  <li>Device shelf: use your own device to follow iFIT trainers or watch your favorite shows while you work out</li>
+  <li>0-10 MPH speed range: perfect for running, jogging, or walking at your desired pace</li>
+  <li>0-10% incline range: target more muscle groups and boost calorie burn with customizable inclines</li>
+  <li>KeyFlex Cushioning: reduce impact on joints and enjoy a smoother ride</li>
+</ul>
+
+<h3>Who This Is For</h3>
+<p>This treadmill is ideal for:</p>
+<ul>
+  <li>Fitness enthusiasts seeking a high-quality home workout solution</li>
+  <li_Runners and joggers looking to simulate outdoor routes or work on their endurance</li>
+  <li>Those who want to mix up their cardio routine with incline training</li>
+</ul>
+
+<h3>Pros & Cons</h3>
+<p>To be determined.</p>
+<a href="https://amzn.to/4bbo51Z" class="cta" target="_blank" rel="nofollow noopener">
+Check price on Amazon
+</a>
+</section>
+
+<section class="product" id="cap-barbell-rubber-coated-dumbbell-weight-set-with-vertical-rack-100-lb-150-lb-and">
+<img src="https://m.media-amazon.com/images/I/71HEqww6NtL.jpg" alt="CAP Barbell Rubber Coated Dumbbell Weight Set with Vertical Rack | 100 lb, 150 lb, and">
+<h2>CAP Barbell Rubber Coated Dumbbell Weight Set with Vertical Rack</h2>
+
+Get a grip on your fitness goals with the CAP Barbell Rubber Coated Dumbbell Weight Set with Vertical Rack. This comprehensive weightlifting set includes four pairs of high-quality dumbbells, ranging from 5-20 pounds, and an A-frame rack to store them all.
+
+<h3>Key Benefits</h3>
+
+<ul>
+    <li>Durable construction for heavy use</li>
+    <li>Rubber inserts prevent scratches on the dumbbells and rack</li>
+    <li>A-frame design maximizes floor space and keeps weights organized</li>
+    <li>Includes four pairs of dumbbells (5-20 pounds) to suit your fitness needs</li>
+</ul>
+
+<h3>Who This Is For</h3>
+
+<ul>
+    <li>Fitness enthusiasts looking for a reliable weightlifting set</li>
+    <li>Home gym owners seeking space-saving storage solutions</li>
+    <li>Professional trainers and athletes requiring durable equipment</li>
+</ul>
+
+<h3>Pros & Cons</h3>
+
+<ul>
+    <li>Pro: Durable construction withstands heavy use</li>
+    <li>Pro: Rubber inserts protect surfaces from scratches</li>
+    <li>Con: May require assembly upon arrival (instructions included)</li>
+    <li>Con: Some users may find the rack a bit flimsy</li>
+</ul>
+<a href="https://amzn.to/4beF1ES" class="cta" target="_blank" rel="nofollow noopener">
+Check price on Amazon
+</a>
+</section>
+
+
+</article>
+
 </body>
 </html>
