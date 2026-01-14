@@ -39,9 +39,43 @@
       "publisher": {
         "@type": "Organization",
         "name": "Trendifyz",
-        "logo": "<%= baseUrl %>/trendifyz.png"
+        "logo": "<%= baseUrl %>/trendifyz.png",
+        "url": "<%= baseUrl %>",
+        "sameAs": [
+          "https://www.pinterest.com/TrendifyzOfficial/"
+        ]
       }
     }
+    </script>
+    <% if (currentCategory !== null) { %>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "<%= baseUrl %>"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "<%= currentCategory %>",
+          "item": "<%= canonicalUrl %>"
+        }
+      ]
+    }
+    </script>
+    <% } %>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
     </script>
     <!-- Pinterest Tag -->
     <script>
@@ -101,11 +135,11 @@
         <% products.forEach(product => { %>
             <div class="product">
                 <a href="<%= product.url %>" target="_blank">
-                    <img class="product-image" src="<%= product.image %>" alt="<%= product.name %>">
+                    <img class="product-image" src="<%= product.image %>" alt="<%= product.name %>" loading="lazy">
                     <% if (product.images && product.images.length > 1) { %>
                         <div class="additional-images">
                             <% product.images.slice(1, 4).forEach(img => { %>
-                                <img src="<%= img %>" alt="product image" class="thumbnail">
+                                <img src="<%= img %>" alt="product image" class="thumbnail" loading="lazy">
                             <% }); %>
                         </div>
                     <% } %>
@@ -132,6 +166,11 @@
                 <% if (product.editorPick) { %>
                     <p class="editor-pick">Editor's Pick</p>
                 <% } %>
+                <div class="share-buttons" style="margin-top:10px;">
+                    <a href="https://twitter.com/intent/tweet?text=Check out <%= encodeURIComponent(product.name) %> on Trendifyz&url=<%= encodeURIComponent(canonicalUrl + '#product-' + product.name.toLowerCase().replace(/[^a-z0-9]/g, '-')) %>" target="_blank" style="margin-right:10px;">Share on Twitter</a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=<%= encodeURIComponent(canonicalUrl + '#product-' + product.name.toLowerCase().replace(/[^a-z0-9]/g, '-')) %>" target="_blank" style="margin-right:10px;">Share on Facebook</a>
+                    <a href="https://pinterest.com/pin/create/button/?url=<%= encodeURIComponent(canonicalUrl + '#product-' + product.name.toLowerCase().replace(/[^a-z0-9]/g, '-')) %>&media=<%= encodeURIComponent(product.image) %>&description=<%= encodeURIComponent(product.name + ' - ' + product.review) %>" target="_blank">Pin on Pinterest</a>
+                </div>
             </div>
             <script type="application/ld+json">
             {
@@ -180,6 +219,46 @@
         </div>
     </div>
     <% } %>
+    <div class="faq" style="padding:20px; margin:20px 0;">
+        <h2>Frequently Asked Questions</h2>
+        <div itemscope itemtype="https://schema.org/FAQPage">
+            <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 itemprop="name">What is Trendifyz?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">Trendifyz is your go-to source for discovering the latest trending products from Amazon, Alibaba, and more. We provide reviews, deals, and affiliate links to help you find top products.</p>
+                </div>
+            </div>
+            <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 itemprop="name">How do I find deals on Trendifyz?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">Browse our categories or check our blog for trending products. Each product listing includes pros, cons, reviews, and direct links to purchase.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="newsletter" style="text-align:center; padding:20px; background:#f0f0f0; margin:20px 0;">
+        <h2>Subscribe to Trendifyz Newsletter</h2>
+        <p>Get the latest trending products and deals delivered to your inbox!</p>
+        <form action="/subscribe" method="post" style="display:inline-block;">
+            <input type="email" name="email" placeholder="Enter your email" required style="padding:10px; width:200px;">
+            <button type="submit" style="padding:10px 20px; background:#007bff; color:#fff; border:none;">Subscribe</button>
+        </form>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "SubscribeAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://trendifyz.vercel.app/subscribe",
+            "inLanguage": "en-US",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+        </script>
+    </div>
     <footer>
         <div class="partner-logos">
             <a href="https://www.amazon.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" style="height: 40px;"></a>

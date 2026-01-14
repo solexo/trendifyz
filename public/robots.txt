@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dealcentral.vercel.app/sitemap.xml
+Sitemap: https://trendifyz.vercel.app/sitemap.xml

@@ -32,7 +32,7 @@ const products = [
     ],
     "price": "$199.00",
     "category": "Beauty & personal care",
-    "review": "This laser cap uses FDA-cleared red light therapy to stimulate hair growth. It's comfortable, cordless, and easy to use with a 7-minute treatment time.",
+    "review": "This trending laser cap uses FDA-cleared red light therapy to stimulate hair growth. It's comfortable, cordless, and easy to use with a 7-minute treatment time. Perfect for viral hair loss solutions.",
     "pros": ["FDA cleared", "Cordless and flexible design", "Quick 7-minute sessions"],
     "cons": ["Requires consistent use", "Not covered by insurance"],
     "whyBuy": "Ideal for those seeking a non-invasive solution to hair thinning with proven technology.",
