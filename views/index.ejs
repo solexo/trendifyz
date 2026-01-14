@@ -145,7 +145,8 @@
                 "url": "<%= product.url %>",
                 "price": "<%= product.price.replace(/[^0-9.]/g, '') %>",
                 "priceCurrency": "USD",
-                "availability": "https://schema.org/InStock"
+                "availability": "https://schema.org/InStock",
+                "priceValidUntil": "<%= new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split('T')[0] %>"
               },
               "aggregateRating": {
                 "@type": "AggregateRating",
