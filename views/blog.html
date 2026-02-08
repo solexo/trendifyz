@@ -5888,6 +5888,34 @@ Step into a whimsical world with the 500 Piece Jigsaw Puzzle for Adults, featuri
 Check price on Amazon
 </a>
 </section></article>
+
+<script>
+// Handle anchor/hash navigation on page load and when hash changes
+function scrollToHash() {
+    const hash = window.location.hash.substring(1);
+    if (hash) {
+        const element = document.getElementById(hash);
+        if (element) {
+            setTimeout(() => {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                element.style.borderColor = '#00ffff';
+                element.style.boxShadow = '0 0 20px rgba(0, 255, 255, 0.5)';
+            }, 100);
+        } else {
+            console.warn(`Product section with ID "${hash}" not found`);
+        }
+    }
+}
+
+// Scroll on page load
+window.addEventListener('load', scrollToHash);
+
+// Also scroll when hash changes (for navigation within the page)
+window.addEventListener('hashchange', scrollToHash);
+
+// Try to scroll immediately if hash is present
+scrollToHash();
+</script>
 </body>
 </html>
 
