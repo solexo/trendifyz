@@ -1227,6 +1227,14 @@ app.get('/blog', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'blog.html'));
 });
 
+app.get('/blog1', (req, res) => {
+  res.sendFile(path.join(__dirname, 'views', 'blog1.html'));
+});
+
+app.get('/blog2', (req, res) => {
+  res.sendFile(path.join(__dirname, 'views', 'blog2.html'));
+});
+
 // Export for Vercel
 module.exports = app;
 
